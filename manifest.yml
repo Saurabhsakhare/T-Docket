@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: T-Docket
+  host: t-docket
+  disk_quota: 1024M
+  services:
+  - T-Docket-AdvancedMobileAccess
+  - T-Docket-imfpush
+  - T-Docket-cloudantNoSQLDB
